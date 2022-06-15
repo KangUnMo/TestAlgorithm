@@ -17,7 +17,7 @@ function abbreviateName(name) {
       break;
     }
     const namePiece = nameArry[i]
-    shortName += namePiece.charAt(0) + (i==0 ? '.':'')
+    shortName += namePiece.charAt(0) + (i == 0 ? '.':'')
   }
 
   return shortName
